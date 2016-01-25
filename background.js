@@ -49,7 +49,7 @@ function checkUser() {
             console.log(res);
             if (res.username) {
                 var ind = users.indexOf(res.username);
-                if(ind != -1) {
+                if (ind != -1) {
                     users.splice(ind, 1);
                 }
                 console.log(users);
@@ -112,10 +112,10 @@ var userProcessor = function (renderId) {
                 console.log(xhttp);
             }
         };
-        if(typeof page == 'undefined'){
+        if (typeof page == 'undefined') {
             xhttp.open("GET", "http://www.checkio.org/api/publications?username=" + user, true);
         }
-        else{
+        else {
             xhttp.open("GET", "http://www.checkio.org/api/publications?username=" + user + "&page=" + page, true);
         }
 
@@ -145,7 +145,7 @@ var userProcessor = function (renderId) {
     }
 
     function processUser(user) {
-        if(user) {
+        if (user) {
             renderStatus("Przetwarzam: " + user + ' ?', renderId);
             left = left + 1;
             if (currentPage) {
@@ -173,8 +173,8 @@ function processUsers(id) {
             }
         }
     }
-    else if(left == 0){
-        for(var i = 0; i < maxConcurrent; i++){
+    else if (left == 0) {
+        for (var i = 0; i < maxConcurrent; i++) {
             renderStatus('', i);
         }
         renderStatus('Koniec', 0);
