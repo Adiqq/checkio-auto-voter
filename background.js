@@ -20,7 +20,8 @@ var users = [
     'danielgestwa',
     'wiski',
     'qba_02',
-    'Morp'
+    'morp',
+    'MartynaDziubalka'
 ];
 
 function renderStatus(text, id) {
