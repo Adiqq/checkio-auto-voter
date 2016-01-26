@@ -18,7 +18,8 @@ var users = [
     'KWisniewski',
     'slygoblin',
     'danielgestwa',
-    'wiski'
+    'wiski',
+    'qba_02'
 ];
 
 function renderStatus(text, id) {
