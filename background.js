@@ -19,7 +19,8 @@ var users = [
     'slygoblin',
     'danielgestwa',
     'wiski',
-    'qba_02'
+    'qba_02',
+    'Morp'
 ];
 
 function renderStatus(text, id) {
