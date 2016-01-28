@@ -9,19 +9,17 @@ var subject = new Rx.ReplaySubject(
     Rx.Scheduler.timeout);
 
 var users = [
-    'quis20',
-    'daniel.talar',
     'zator55',
     'arkadiusz.nadolski',
     'mariano_italino',
     'Nuszwkartlo',
     'KWisniewski',
-    'slygoblin',
-    'danielgestwa',
     'wiski',
     'qba_02',
     'morp',
-    'MartynaDziubalka'
+    'MartynaDziubalka',
+    'przemyslaw.jan.pietrzak',
+    'marek1992'
 ];
 
 function renderStatus(text, id) {
